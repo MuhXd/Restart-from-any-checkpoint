@@ -40,6 +40,10 @@ class $modify(endLayer,EndLevelLayer){
 		int min = 1;
 		int max = pl->m_checkpointArray->count();
 		auto Checkpoint = CheckPointPopup::create(min,max,[=](int selected){
+			if (max == selected) {
+				this->m_fields->m_xddddd = true;
+				return EndLevelLayer::onRestartCheckpoint(x);
+			};
 			auto checkpoint = pl->m_checkpointArray->objectAtIndex(selected-1);
 			if (checkpoint) {
 				if (Mod::get()->getSettingValue<bool>("rm-root")) {
