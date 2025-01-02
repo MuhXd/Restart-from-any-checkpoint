@@ -1,3 +1,2 @@
-# Template Mod
-
-Edit about.md to change this
+# Better checkpoint restart
+every wanted to restart from checkpoint 3 instead of the last checkpoint. Now you can! with Better checkpoint restart you can restart from any checkpoint (that the game stores) without problems!
