@@ -1,0 +1,21 @@
+{
+	"geode": "4.1.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"settings": {
+		"rm-root": {
+			"name": "Remove Old Front Checkpoints",
+			"type": "bool",
+			"default": true
+		}
+	},
+	"id": "viper.restart_from_any_checkpoint",
+	"name": "Better checkpoint restart",
+	"version": "v1.0.0",
+	"developer": "Viper",
+	"description": "Restart from any checkpoint in practice mode!"
+}
